@@ -362,5 +362,70 @@ y = 4j
 print(x)
 print(y)
 
+x = float(3)
+y = float(3.3)
+z = float("3")
+e = float("7.8")
+
+print(x)
+print(y)
+print(z)
+print(e)
+
+
+x = int(3)
+y = int(4.4)
+z = int("3")
+#e = int("9.9") not possible
+
+print(x)
+print(y)
+print(z)
+#print(e)  not possible 
+
+
+x = str("s5")     # inverted commas are compulsory
+y = str(7)
+z = str(9.9)
+
+print(x)
+print(y)
+print(z)
+
+
+#using quotes inside string
+
+print("he said yup bro!")
+print('he said "yup bro!" ')
+print("he said 'yup bro!' ")
+
+
+x = "hello"
+print(x)
+
+x = """i know what's happening but i also  know
+nothing is in my control"""
+
+print(x)
+
+a = "hello"
+print(a[2])
+
+print('just for space')
+
+for x in 'something':
+ print(x)
+
+print('string length')   # string length
+
+x = 'hello world' 
+print(len(x))
+
+#To check if a certain phrase or character is present in a string, we can use the keyword in.
+txt = "hi my name is sahil and currently i'm doing code practice in python"
+print("sahil" in txt)
+print("hello" in txt )
+
+
 
  
