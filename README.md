@@ -1,3 +1,9 @@
+<hr>
+<a href="http://127.0.0.1:3000/ahh_shit_here_we_go_again/first-py-codes/index.html?serverWindowId=1ac0196d-5b6e-4b2d-98fc-2f3e6f701811">link</a>
+
+
+
+<hr>
 # first-py-codes
 x = 4
 y = "hello zorin"
