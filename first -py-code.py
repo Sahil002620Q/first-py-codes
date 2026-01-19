@@ -7,7 +7,7 @@ print(y)
 #comment , to start comment just use hashtage
 
 
-# x will be '3'
+# x will be '3'  
 # y will be 3
 # z will be 3.0
 x = int(4)
