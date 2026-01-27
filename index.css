@@ -1,71 +1,71 @@
 /* Basic body styling */
  body, html {
-         margin: 0;
-         padding: 0;
-         width: 100%;
-         height: 100%;
-         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-         overflow: hidden; /* Prevents scrollbars from appearing */
-     }
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow: hidden; /* Prevents scrollbars from appearing */
+    }
 
  /* Container to hold the video */
 .video-container {
-            position: fixed;
-            top: 0;
-           left: 0;
-           width: 100%;
-          height: 100%;
-          z-index: -1; /* Puts the video behind all other content */
-           overflow: hidden;
-       }
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Puts the video behind all other content */
+        overflow: hidden;
+    }
 
  /* The background video itself */
  #background-video {
-            width: 100%;
-           height: 100%;
-           object-fit: cover; /* Ensures the video covers the screen without distortion */
-        }
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the video covers the screen without distortion */
+    }
 
  /* Styling for the overlay content */
  .content {
-       display: flex;
-       flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for text readability */
-           text-align: center;
-           padding: 20px;
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for text readability */
+        text-align: center;
+        padding: 20px;
+    }
 
  .content h1 {
-           font-size: 4rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-        }
+        font-size: 4rem;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
 
  .content p {
             font-size: 1.5rem;
             margin-bottom: 30px;
             text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-        }
+    }
 
  /* Container for the buttons */
  .button-container {
           display: flex;
             gap: 20px; /* Space between buttons */
-        }
+    }
 
  /* Button styling */
  .btn {
           display: inline-block;
-     padding: 15px 30px;
+          padding: 15px 30px;
           font-size: 1rem;
           font-weight: bold;
-         color: white;
-         background-color: transparent;
-     border: 2px solid white;
+          color: white;
+          background-color: transparent;
+           border: 2px solid white;
           border-radius: 50px;
           text-decoration: none;
           text-transform: uppercase;
