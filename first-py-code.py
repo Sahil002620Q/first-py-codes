@@ -427,5 +427,10 @@ print("sahil" in txt)
 print("hello" in txt )
 
 
+txt = 'my h.no is 30\\1'
+print(txt)
 
- 
+txt = 'first line\nsecond line'
+print(txt)
+
+
