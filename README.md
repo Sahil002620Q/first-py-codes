@@ -3,7 +3,7 @@
 
 
 <br>
-<p>alternatively you can click<a href="<a href="https://sahil002620q.github.io/first-py-codes/"> here</a> </p>
+<p>alternatively you can click<a href="https://sahil002620q.github.io/first-py-codes/"> here</a> </p>
 
 
 
