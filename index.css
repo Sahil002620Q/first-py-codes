@@ -79,3 +79,28 @@
            transform: translateY(-5px); /* Lifts the button slightly */
            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2.5rem; /* Smaller font for mobile */
+        padding: 0 10px; /* Prevent text touching edges */
+    }
+
+    .content p {
+        font-size: 1.2rem;
+        padding: 0 15px;
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%; /* Buttons take up more width on mobile */
+        text-align: center;
+        padding: 12px 20px;
+    }
+}
