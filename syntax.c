@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    //syntax for if else
+    //syntax for if 
     if (condition)
     {
         //code
@@ -18,6 +18,13 @@ int main()
         //code
     }
 
+    //syntax for do 
+    do(condition)
+        { 
+             //code
+        }while(condition)
+    
+    //syntax for else if
     if (condition)
     {
         //code
