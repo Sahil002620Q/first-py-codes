@@ -18,6 +18,19 @@ int main()
         //code
     }
 
+    if (condition)
+    {
+        //code
+    }
+    else if (condition)
+    {
+        //code
+    }
+    else
+    {
+        //code
+    }
+    
     //syntax for switch
     switch (condition)
     {
