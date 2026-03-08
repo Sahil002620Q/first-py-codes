@@ -3,7 +3,9 @@
 
 
 <br>
-<p>alternatively you can click<a href="https://first-py-codes.vercel.app/"> here</a> </p>
+<p>Alternatively you can click<a href="https://first-py-codes.vercel.app/"> here</a> </p>
+
+<p>You can click on the above links to know more about me</p>
 
 
 
